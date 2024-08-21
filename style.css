@@ -11,3 +11,20 @@ html{
     /* me permite deslizar cuando hago clic en los links del menu */
     
 }
+
+
+.flex-navigation {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.nav-responsive {
+    display: none;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .nav-responsive {display: block;}
+    .flex-navigation {display: none;}
+  }
